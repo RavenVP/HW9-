@@ -6,7 +6,7 @@ public class Main {
         Book two = new Book("Бородино", author2, 1837);
         one.setYear(1909);
         two.setYear(1959);
-        System.out.println(one.getName()+" "+one.getYear()+ " " +one.getAuthor());
+        System.out.println(one);
     }
 
 }
